@@ -60,6 +60,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
   - HM awards: $56,250 USDC 
   - QA report awards: $7,500 USDC 
   - Gas report awards: $3,750 USDC
+  - Bot Race awards: $7,500 USDC 
   - Judge awards: $9,000 USDC
   - Lookout awards: $6,000 USDC 
   - Scout awards: $500 USDC 
