@@ -55,7 +55,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 ---
 
-# Venus contest details
+# Venus Protocol contest details
 - Total Prize Pool: $90,500 USDC
   - HM awards: $56,250 USDC 
   - QA report awards: $7,500 USDC 
