@@ -15,12 +15,6 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 # Contest setup
 
 ## 🐺 C4: Set up repos
-- [ ] Create a new private repo named `YYYY-MM-sponsorname` using this repo as a template.
-- [ ] Rename this repo to reflect contest date (if applicable)
-- [ ] Rename contest H1 below
-- [ ] Update pot sizes
-- [ ] Fill in start and end times in contest bullets below
-- [ ] Add link to submission form in contest details below
 - [ ] Add the information from the scoping form to the "Scoping Details" section at the bottom of this readme.
 - [ ] Add matching info to the [code423n4.com public contest data here](https://github.com/code-423n4/code423n4.com/blob/main/_data/contests/contests.csv))
 - [ ] Add sponsor to this private repo with 'maintain' level access.
@@ -61,20 +55,19 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 ---
 
-# Sponsorname contest details
-- Total Prize Pool: XXX XXX USDC (Notion: Total award pool)
-  - HM awards: XXX XXX USDC (Notion: HM (main) pool)
-  - QA report awards: XXX XXX USDC (Notion: QA pool)
-  - Gas report awards: XXX XXX USDC (Notion: Gas pool)
-  - Judge awards: XXX XXX USDC (Notion: Judge Fee)
-  - Lookout awards: XXX XXX USDC (Notion: Sum of Pre-sort fee + Pre-sort early bonus)
-  - Scout awards: $500 USDC (Notion: Scout fee - but usually $500 USDC)
-  - (this line can be removed if there is no mitigation) Mitigation review contest: XXX XXX USDC (*Opportunity goes to top X certified wardens based on placement in this contest.*)
+# Venus contest details
+- Total Prize Pool: $90,500 USDC
+  - HM awards: $56,250 USDC 
+  - QA report awards: $7,500 USDC 
+  - Gas report awards: $3,750 USDC
+  - Judge awards: $9,000 USDC
+  - Lookout awards: $6,000 USDC 
+  - Scout awards: $500 USDC 
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/YYYY-MM-sponsorName-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2023-05-venus-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts TBD XXX XXX XX 20:00 UTC (ex. `Starts March 22, 2023 20:00 UTC`)
-- Ends TBD XXX XXX XX 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
+- Starts May 05, 2023 20:00 UTC
+- Ends May 12, 20:00 UTC
 
 ## Automated Findings / Publicly Known Issues
 
