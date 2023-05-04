@@ -35,7 +35,7 @@ The first generation of lending pools, including the Venus Core Pool, aggregate 
 
 The Isolated Pools architecture centers around the `PoolRegistry` contract. The `PoolRegistry` maintains a directory of isolated lending pools and can perform actions like creating and registering new pools, adding new markets to existing pools, setting and updating the pool's required metadata, and providing the getter methods to get information on the pools.
 
-![isolated pools](/marketing-assets/isolatedpools.png)
+![image](https://user-images.githubusercontent.com/47150934/236290058-6b14a499-7afe-46e4-bca6-d72e3db8a28e.png)
 
 ### Factories
 
