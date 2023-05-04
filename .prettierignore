@@ -1,0 +1,9 @@
+node_modules
+artifacts
+cache
+coverage*
+gasReporterOutput.json
+dist
+scenario
+typechain
+contracts/oracle
