@@ -13,6 +13,12 @@
 - Starts May 05, 2023 20:00 UTC
 - Ends May 12, 20:00 UTC
 
+## Automated Findings / Publicly Known Issues
+
+Automated findings output for the contest can be found [here](add link to report) within 24 hours of contest opening.
+
+*Note for C4 wardens: Anything included in the automated findings output is considered a publicly known issue and is ineligible for awards.*
+
 # Overview
 
 [Venus](https://app.venus.io) is a decentralized finance (DeFi) algorithmic money market protocol on BNB Chain.
@@ -192,9 +198,8 @@ Moreover, we are aware of `require(amountOutMin != 0)` is redundant. We'll remov
 *Sponsor, please confirm/edit the information below.*
 
 ## Scoping Details 
-
-- Public repo: https://github.com/code-423n4/2023-05-Venus
-- If you have a public code repo, please share it here:  
+```
+- If you have a public code repo, please share it here:  https://github.com/code-423n4/2023-05-Venus
 - How many contracts are in scope?: 23 (`find contracts -name "*.sol" -not -path "contracts/test/*" | xargs grep -e "^abstract contract" -e "^contract" | wc -l`)
 - Total SLoC for these contracts?: 3549 (`cloc contracts --exclude-dir=test`)
 - How many external imports are there?: 11 (`find contracts -name "*.sol" -not -path "contracts/test/*" | xargs grep -h "import \"@" | sort -u | wc -l `)  
@@ -213,6 +218,7 @@ Moreover, we are aware of `require(amountOutMin != 0)` is redundant. We'll remov
 - Does it use rollups?: no
 - Is it multi-chain?: no
 - Does it use a side-chain?: no
+```
 
 # Tests
 
