@@ -109,40 +109,40 @@ The `Comptroller` also includes two functions `liquidateAccount()` and `healAcco
 
 | File | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
-| [Comptroller.sol](contracts/Comptroller.sol) | 728 | Provide checks for all minting, redeeming, transferring, borrowing, lending, repaying, liquidating, and seizing done by the `vToken` contract | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlManager.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlManager.sol) |
-| [VToken.sol](contracts/VToken.sol) | 655 | Each VToken instance is a market in the protocol, they hold the underlying assets | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
-| [Lens/PoolLens.sol](contracts/Lens/PoolLens.sol) | 378 | Retrieve important information for each registered pool | [@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
-| [Shortfall/Shortfall.sol](contracts/Shortfall/Shortfall.sol) | 289 | Auction off funds accumulated in `RiskFund`. These funds are auctioned in exchange for users paying off the pool's bad debt | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
-| [Rewards/RewardsDistributor.sol](contracts/Rewards/RewardsDistributor.sol) | 266 | Distribute rewards to borrowers and suppliers, based on a user’s percentage of the borrows or supplies respectively | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
-| [Pool/PoolRegistry.sol](contracts/Pool/PoolRegistry.sol) | 251 | Track of the pools and the markets that have been added to each pool | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlManager.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlManager.sol) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
-| [RiskFund/RiskFund.sol](contracts/RiskFund/RiskFund.sol) | 166 | Hold funds that will be auctioned off in the `Shortfall` to cover the bad debt | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
-  | [VTokenInterfaces.sol](contracts/VTokenInterfaces.sol) | 141 | Interface of VToken | [@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) |
-| [ExponentialNoError.sol](contracts/ExponentialNoError.sol) | 102 | Functions to work with fixed-precision decimals |  |
-| [BaseJumpRateModelV2.sol](contracts/BaseJumpRateModelV2.sol) | 93 | Abstract contract of interest rate models using a kink | [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
-| [ComptrollerInterface.sol](contracts/ComptrollerInterface.sol) | 62 | Interface of Comptroller contract | [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
-| [ComptrollerStorage.sol](contracts/ComptrollerStorage.sol) | 58 | Storage variables of the Comptroller contract | [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
-| [RiskFund/ProtocolShareReserve.sol](contracts/RiskFund/ProtocolShareReserve.sol) | 57 | Target of the income generated in the `VToken` contracts | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) |
-| [Factories/VTokenProxyFactory.sol](contracts/Factories/VTokenProxyFactory.sol) | 43 | Generate a new `vToken` proxy for each market when it is added to a pool | [@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlManager.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlManager.sol) |
-| [WhitePaperInterestRateModel.sol](contracts/WhitePaperInterestRateModel.sol) | 43 | Simple rate model | |
-| [ErrorReporter.sol](contracts/ErrorReporter.sol) | 42 | Definition of errors used by the `VToken` contract | |
-| [RiskFund/ReserveHelpers.sol](contracts/RiskFund/ReserveHelpers.sol) | 37 | Contract extended by `ProtocolShareReserve` and `RiskFund`, adding capabilities to receive funds | [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) |
-| [JumpRateModelV2.sol](contracts/JumpRateModelV2.sol) | 21 | Specific rate model using a kink | |
-| [Factories/JumpRateModelFactory.sol](contracts/Factories/JumpRateModelFactory.sol) | 20 | Factory of `JumpRateModelV2` instances | |
-| [Pool/PoolRegistryInterface.sol](contracts/Pool/PoolRegistryInterface.sol) | 20 | Interface of `PoolRegistry` | |
-| [MaxLoopsLimitHelper.sol](contracts/MaxLoopsLimitHelper.sol) | 18 | Abstract contract adding some capabilities to avoid too large loops | |
-| [InterestRateModel.sol](contracts/InterestRateModel.sol) | 15 | Abstract contract used by every rate model | |
-| [RiskFund/IRiskFund.sol](contracts/RiskFund/IRiskFund.sol) | 11 | Interface of `RiskFund` | |
-| [IPancakeswapV2Router.sol](contracts/IPancakeswapV2Router.sol) | 10 | Partial interface of `PancakeswapV2Router` | |
-| [Factories/WhitePaperInterestRateModelFactory.sol](contracts/Factories/WhitePaperInterestRateModelFactory.sol) | 8 | Factory of `WhitePaperInterestRateModel` instances | |
-| [Proxy/UpgradeableBeacon.sol](contracts/Proxy/UpgradeableBeacon.sol) | 7 | Used for testing, it should/will be moved to the `tests` folder | [@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol](https://www.openzeppelin.com/contracts) |
-| [RiskFund/IProtocolShareReserve.sol](contracts/RiskFund/IProtocolShareReserve.sol) | 4 | Interface of `ProtocolShareReserve` | |
-| [Shortfall/IShortfall.sol](contracts/Shortfall/IShortfall.sol) | 4 | Interface of `Shortfall` | |
+| [Comptroller.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Comptroller.sol) | 728 | Provide checks for all minting, redeeming, transferring, borrowing, lending, repaying, liquidating, and seizing done by the `vToken` contract | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlManager.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlManager.sol) |
+| [VToken.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/VToken.sol) | 655 | Each VToken instance is a market in the protocol, they hold the underlying assets | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
+| [Lens/PoolLens.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Lens/PoolLens.sol) | 378 | Retrieve important information for each registered pool | [@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
+| [Shortfall/Shortfall.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Shortfall/Shortfall.sol) | 289 | Auction off funds accumulated in `RiskFund`. These funds are auctioned in exchange for users paying off the pool's bad debt | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
+| [Rewards/RewardsDistributor.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Rewards/RewardsDistributor.sol) | 266 | Distribute rewards to borrowers and suppliers, based on a user’s percentage of the borrows or supplies respectively | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
+| [Pool/PoolRegistry.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Pool/PoolRegistry.sol) | 251 | Track of the pools and the markets that have been added to each pool | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlManager.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlManager.sol) [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
+| [RiskFund/RiskFund.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/RiskFund/RiskFund.sol) | 166 | Hold funds that will be auctioned off in the `Shortfall` to cover the bad debt | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
+| [VTokenInterfaces.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/VTokenInterfaces.sol) | 141 | Interface of VToken | [@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) |
+| [ExponentialNoError.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/ExponentialNoError.sol) | 102 | Functions to work with fixed-precision decimals |  |
+| [BaseJumpRateModelV2.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/BaseJumpRateModelV2.sol) | 93 | Abstract contract of interest rate models using a kink | [@venusprotocol/governance-contracts/contracts/Governance/AccessControlledV8.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlledV8.sol) |
+| [ComptrollerInterface.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/ComptrollerInterface.sol) | 62 | Interface of Comptroller contract | [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
+| [ComptrollerStorage.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/ComptrollerStorage.sol) | 58 | Storage variables of the Comptroller contract | [@venusprotocol/oracle/contracts/PriceOracle.sol](https://github.com/VenusProtocol/oracle) |
+| [RiskFund/ProtocolShareReserve.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/RiskFund/ProtocolShareReserve.sol) | 57 | Target of the income generated in the `VToken` contracts | [@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol](https://www.openzeppelin.com/contracts) [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) |
+| [Factories/VTokenProxyFactory.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Factories/VTokenProxyFactory.sol) | 43 | Generate a new `vToken` proxy for each market when it is added to a pool | [@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol](https://www.openzeppelin.com/contracts) [@venusprotocol/governance-contracts/contracts/Governance/AccessControlManager.sol](https://github.com/VenusProtocol/governance-contracts/blob/main/contracts/Governance/AccessControlManager.sol) |
+| [WhitePaperInterestRateModel.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/WhitePaperInterestRateModel.sol) | 43 | Simple rate model | |
+| [ErrorReporter.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/ErrorReporter.sol) | 42 | Definition of errors used by the `VToken` contract | |
+| [RiskFund/ReserveHelpers.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/RiskFund/ReserveHelpers.sol) | 37 | Contract extended by `ProtocolShareReserve` and `RiskFund`, adding capabilities to receive funds | [@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol](https://www.openzeppelin.com/contracts) |
+| [JumpRateModelV2.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/JumpRateModelV2.sol) | 21 | Specific rate model using a kink | |
+| [Factories/JumpRateModelFactory.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Factories/JumpRateModelFactory.sol) | 20 | Factory of `JumpRateModelV2` instances | |
+| [Pool/PoolRegistryInterface.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Pool/PoolRegistryInterface.sol) | 20 | Interface of `PoolRegistry` | |
+| [MaxLoopsLimitHelper.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/MaxLoopsLimitHelper.sol) | 18 | Abstract contract adding some capabilities to avoid too large loops | |
+| [InterestRateModel.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/InterestRateModel.sol) | 15 | Abstract contract used by every rate model | |
+| [RiskFund/IRiskFund.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/RiskFund/IRiskFund.sol) | 11 | Interface of `RiskFund` | |
+| [IPancakeswapV2Router.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/IPancakeswapV2Router.sol) | 10 | Partial interface of `PancakeswapV2Router` | |
+| [Factories/WhitePaperInterestRateModelFactory.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Factories/WhitePaperInterestRateModelFactory.sol) | 8 | Factory of `WhitePaperInterestRateModel` instances | |
+| [Proxy/UpgradeableBeacon.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Proxy/UpgradeableBeacon.sol) | 7 | Used for testing, it should/will be moved to the `tests` folder | [@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol](https://www.openzeppelin.com/contracts) |
+| [RiskFund/IProtocolShareReserve.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/RiskFund/IProtocolShareReserve.sol) | 4 | Interface of `ProtocolShareReserve` | |
+| [Shortfall/IShortfall.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Shortfall/IShortfall.sol) | 4 | Interface of `Shortfall` | |
 
 ## Out of scope
 
 The following files/contracts are out of the scope for this audit:
 
-* [contracts/test](contracts/test)
+* [contracts/test](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/test)
 * External libraries:
   * `@openzeppelin/*`
   * `@venusprotocol/governance-contracts/*`
@@ -179,7 +179,7 @@ There are two other Timelock contracts to execute VIP's with a shorter delay:
 
 ### Uncontrolled interactions in `Lens/PoolLens.sol`
 
-Potentially, they could consume more gas than available. We decided not to integrate the [MaxLoopsLimitHelper.sol](contracts/MaxLoopsLimitHelper.sol) contract in this case to avoid storage variables in the `PoolLens` contract.
+Potentially, they could consume more gas than available. We decided not to integrate the [MaxLoopsLimitHelper.sol](https://github.com/code-423n4/2023-05-venus/blob/main/contracts/MaxLoopsLimitHelper.sol) contract in this case to avoid storage variables in the `PoolLens` contract.
 
 ### `minLiquidatableCollateral` not limited in `contracts/Comptroller.sol`
 
@@ -230,7 +230,7 @@ Moreover, we are aware of `require(amountOutMin != 0)` is redundant. We'll remov
 
 ## Installing
 
-```
+```bash
 
 yarn install
 
@@ -238,7 +238,7 @@ yarn install
 
 ## Run Tests
 
-```
+```bash
 
 yarn test
 
@@ -252,7 +252,7 @@ REPORT_GAS=true npx hardhat test
 
 ## Deployment
 
-```
+```bash
 
 npx hardhat deploy
 
@@ -274,7 +274,7 @@ Make sure you have added `ETHERSCAN_API_KEY` in `.env` file.
 
 ## Hardhat Commands
 
-```
+```bash
 
 npx hardhat accounts
 
