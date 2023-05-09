@@ -15,7 +15,7 @@
 
 ## Automated Findings / Publicly Known Issues
 
-Automated findings output for the contest can be found [here](add link to report) within 24 hours of contest opening.
+Automated findings output for the contest can be found [here](https://gist.github.com/CloudEllie/6639dbfd7dc1809a3baa28bb2895e1d9) (added 9 May 2023 @ 14:45 UTC).
 
 *Note for C4 wardens: Anything included in the automated findings output is considered a publicly known issue and is ineligible for awards.*
 
