@@ -1,0 +1,1171 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q2-2023 / venus-may08
+==============================================================
+
+[05/04/2023 19:09] kartoonjoy (pinned)
+👋 Hello and welcome to the contest channel for the $90,500 USDC **Venus Protocol** contest!
+
+📆 Contest opens 05/08/2023 20:00 (20:00 UTC) and runs through 05/15/2023 20:00 (20:00 UTC) (7 days).
+
+Please give a warm welcome to the Venus Protocol team, particularly @chechu, @0xLucian, @Manmeet22, @kkirka, and @narayanprusty who will be available for questions either here in the channel or via DM in the following timezone(s):
+
+* @Manmeet22  GMT+5:30
+* @kkirka  GMT+3
+* @0xLucian  GMT+3
+* @chechu  GMT+2
+* @narayanprusty GMT+1
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2023-05-venus-protocol-isolated-pools
+
+{Embed}
+https://code4rena.com/contests/2023-05-venus-protocol-isolated-pools
+Code4rena Venus Protocol Isolated Pools
+$90,500 USDC
+8 May 2023—15 May 2023
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/c4-og-banner-0FCFA.png
+
+
+[05/04/2023 19:18] kartoonjoy (pinned)
+:hearteyesrobot: 🏎️  Automated findings output for the contest will be posted within 24 hours of contest opening. :hearteyesrobot: 🏎️
+
+
+[05/04/2023 19:18] kartoonjoy
+Pinned a message.
+
+
+[05/04/2023 19:19] kartoonjoy
+Let's please limit conversation until the contest begins. Thanks!
+
+{Reactions}
+✅ (10) 🫡 (3) 
+
+[05/07/2023 22:41] Noderider#2588
+Hi just, one question, do the venus update has been audited by auditors / other bounties platforms ?
+
+
+[05/08/2023 08:45] daureos (pinned)
+yes, it has been already audited by Hacken and Certik. Moreover, Peckshield did an initial audit of this update
+
+{Reactions}
+🙏 
+
+[05/08/2023 09:43] kartoonjoy
+Pinned a message.
+
+
+[05/08/2023 10:49] d4r.k
+These audits haven't been disclosed yet, right?
+
+
+[05/08/2023 10:56] daureos
+right. They shared the preliminary reports with the team and we fixed everything we considered appropriate. These audit reports are not still public, and they won't be revealed during the contest
+
+There will be a section with "Publicly Known Issues" in the github repo, with the points/issues we assume, and that will be ineligible for awards. Some of these issues were identified in the already-done audits
+
+{Reactions}
+👍 (3) 
+
+[05/08/2023 13:05] cryptologic_010
+https://twitter.com/VenusProtocol/status/1655555057817903110?s=20
+
+{Embed}
+Venus Protocol (@VenusProtocol)
+https://twitter.com/VenusProtocol/status/1655555057817903110?s=20
+⚡️Attention all Security Auditors! The Venus Isolated Lending pools audit contest with @code4rena starts today! Don't miss this opportunity! 
+
+🕣20h00 GMT 
+📍https://t.co/M7pQLPG6mP
+
+$XVS $VAI #DeFi @bnbchain
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/tttJFNMqNnPgtUAg-731BA.jpg
+Twitter
+
+
+[05/08/2023 20:19] daureos
+thank you everyone for participating in this contest. The main contributors to the Venus Isolated Pools are in this channel. So, please don't hesitate to send us your questions, in this channel or via DM's, and we'll try to clarify every doubt. Our timezones:
+
+* @Manmeet22  GMT+5:30
+* @kkirka  GMT+3
+* @0xLucian  GMT+3
+* @chechu  GMT+2
+* @narayanprusty GMT+1
+
+{Reactions}
+thankyou (6) hi5 (3) 
+
+[05/08/2023 21:45] 0xkazimm
+did all the code in the scope audited before !?
+
+{Reactions}
+🔥 
+
+[05/08/2023 21:48] daureos (pinned)
+yes, it has been audited by Hacken and Certik. Moreover, Peckshield did an audit of a previous version of this code
+
+{Reactions}
+👍🏻 
+
+[05/08/2023 21:48] 0xkazimm
+thanks ser
+
+{Reactions}
+❤️ (2) 
+
+[05/08/2023 21:49] kartoonjoy
+Pinned a message.
+
+
+[05/09/2023 08:41] evokid
+Respect for this nice well organized sponsors time 🌼
+
+{Reactions}
+👍 
+
+[05/09/2023 08:41] 0xlucian
+Glad you appreciate it 🙂
+
+{Reactions}
+☕ 
+
+[05/09/2023 14:04] viktor_cortess
+Hello, did anybody encounter this error:  Error HH501: Couldn't download compiler version 0.6.6+commit.6c089d02. Please check your internet connection and try again. ? Never seen it before
+
+
+[05/09/2023 14:23] 0xpathfindr
+Turn off VPN. Or switch you Wi-Fi to a more stable network
+
+
+[05/09/2023 14:23] lilyjjo
+@0xLucian sent a DM!
+
+{Reactions}
+✅ 
+
+[05/09/2023 14:40] cloudellie (pinned)
+Wardens - please note that the automated findings output (AKA the winning bot race report 🏆, submitted by @IllIllI) is posted below. 
+
+**These are considered publicly known issues and are not eligible for awards.**
+
+🤖 Automated findings: 
+https://gist.github.com/CloudEllie/6639dbfd7dc1809a3baa28bb2895e1d9
+
+📄 Code4rena submission guidelines and automated findings policy: 
+https://docs.code4rena.com/roles/wardens/submission-policy#automated-findings-ineligible
+
+The above link has also been added to the contest README.
+
+
+[05/09/2023 14:40] cloudellie
+Pinned a message.
+
+
+[05/09/2023 15:20] bytes032
+damn, the bot reports are getting **a lot better**
+
+{Reactions}
+🤔 (3) 🤖 (3) 
+
+[05/09/2023 15:20] bytes032
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/Screenshot_2023-05-09_at_6.20.46_PM-CCBFA.png
+
+
+[05/09/2023 16:05] cryptologic_010
+Pretty good yeah haha!
+
+
+[05/09/2023 18:23] daureos
+maybe is too late for Manmeet, may I help you?
+
+
+[05/09/2023 18:25] lopotras
+sure, thought he'll be the first one to wake up.
+I'll send the copy to you in the DM
+
+{Reactions}
+👍 
+
+[05/09/2023 18:43] 0xkazimm
+hello which team member  i can  ask in dm in this time please?
+
+
+[05/09/2023 18:44] daureos
+I'll be here for a while. tell me
+
+{Reactions}
+👍🏻 
+
+[05/09/2023 18:46] 0xkazimm
+dm you ser
+
+
+[05/09/2023 19:41] dicethedev
+How does this bot race works please?
+
+
+[05/09/2023 19:59] itsmetechjay
+Sorry I did not realize you still had questions. Did you want to DM them to me?
+
+
+[05/09/2023 19:59] dicethedev
+sure I will!
+
+{Reactions}
+👍 
+
+[05/09/2023 21:02] 0xpathfindr
+Could you please define what `snapshot.shortfall  `  is, in the context of the ` function _checkRedeemAllowed(` function ?
+
+
+[05/09/2023 21:20] infectedfuture
+Hi, what do you mean by "isolated" pools, in comparison to Compound ? From my understanding, in Compound each market is isolated from each other
+
+
+[05/09/2023 21:23] infectedfuture
+Or is it because in Compound, a user can borrow assets from a MarketA, with assets he deposited in a MarketB?
+
+
+[05/09/2023 21:52] daureos (pinned)
+in Venus Isolated Pool there are several pools, and in each pool there are several markets. For example, let's say we have:
+
+Pool 1, with a market for WBNB and a market for USDT
+Pool 2, with a market for RiskyCoinA and a market for RiskyCoinB
+
+you will be able to deposit USDT in the pool 1 and borrow WBNB in the pool 1, using the deposited USDT as collateral
+
+due to the isolation, you won't be able to borrow RiskyCoinA in the pool 2 using the USDT deposited in the pool 1. You will have to deposit RiskyCoinB in the pool 2 to borrow some RiskyCoinA in the pool 2
+
+this way, users will be able to have several open positions assuming different risks, reducing the propagation risk (if RiskyCoinB price goes down, your WBNB position in the pool 1 won't be liquidated, for example, because it's covered only by funds deposited in the pool 1)
+
+{Reactions}
+❤️ (9) 
+
+[05/09/2023 21:55] infectedfuture
+Ok that's what I had inferred, thanks for the detailed explanation!
+
+{Reactions}
+👍 
+
+[05/10/2023 05:15] 0xepley
+are the reports of previous audits public?
+
+
+[05/10/2023 06:37] 0xlucian
+They shared the preliminary reports with the team and we fixed everything we considered appropriate. These audit reports are not still public, and they won't be revealed during the contest
+
+There is a section with "Publicly Known Issues" in the github repo, with the points/issues we assume, and those known issues are ineligible for awards. Some of these issues were identified in the already-done audits .
+
+{Reactions}
+❤️ (4) 
+
+[05/10/2023 07:44] kartoonjoy
+Pinned a message.
+
+
+[05/10/2023 08:54] berlin.101
+Dm you @0xLucian 👋
+
+{Reactions}
+✅ 
+
+[05/10/2023 09:14] noro9954
+sent a DM @chechu 👌🏼
+
+{Reactions}
+👍 
+
+[05/10/2023 14:36] berlin.101
+Sent a DM @chechu 🫡
+
+{Reactions}
+👍 
+
+[05/11/2023 11:40] d_auditor
+Hi there @narayanprusty, you match my time zone ☺️ 
+
+Can you provide any context on the price oracle. I know it is out of scope but I need it to know how it affects this function I'm examining
+
+
+[05/11/2023 11:48] narayanprusty
+We have built a Resilient Oracle. It allows us to set different price sources for each asset. Each price source for each asset can be classified as either main, pivot or fallback. Right now our resilient oracle supports Binance, Chainlink, Pyth and PancakeSwap price sources
+
+
+[05/11/2023 11:49] narayanprusty
+Validation flow:
+     * - Validate price from main oracle against pivot oracle. If valid returns main oracle price
+     * - Validate price from fallback oracle against pivot oracle if the first validation failed. In this case fallback oracle price is returned.
+     * - Validate price from main oracle against fallback oracle if the second validation failed. In this case main oracle price is returned.
+
+
+[05/11/2023 11:49] narayanprusty
+* - In the case that the pivot oracle is not available but main price is available and validation is successful, main oracle price is returned.
+
+
+[05/11/2023 11:50] narayanprusty
+We use a bound validator to validate price between two sources. In this we can configure upper and lower bound ratio for an asset for validation.
+
+
+[05/11/2023 11:54] d_auditor
+Thanks. That was helpful
+
+
+[05/11/2023 12:00] daureos
+this is the public repo of the oracles that Isolated pools will use: https://github.com/VenusProtocol/oracle/ (this repo is out of the scope for this contest)
+
+{Embed}
+https://github.com/VenusProtocol/oracle/
+GitHub - VenusProtocol/oracle: Venus oracle repo
+Venus oracle repo. Contribute to VenusProtocol/oracle development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/oracle-CE4C6
+
+
+[05/11/2023 12:00] zaevlad
+So for that contest Oracle issues are out of scope?
+
+
+[05/11/2023 12:00] zaevlad
+And oracles should be trusted?
+
+
+[05/11/2023 12:07] narayanprusty
+Yes oracle is out of scope. You can assume oracle price is always correct.
+
+{Reactions}
+👍 
+
+[05/11/2023 12:18] __melonwater
+hi dm you @narayanprusty
+
+{Reactions}
+👍 
+
+[05/11/2023 13:47] zaevlad
+@chechu dm you, thanks
+
+{Reactions}
+🫡 
+
+[05/11/2023 14:54] berlin.101
+@narayanprusty I sent you a dm 👋
+
+{Reactions}
+👍 
+
+[05/11/2023 15:21] co0nan
+Did someone figured out where is the Fake comptroller.sol that used on the tests?
+
+
+[05/11/2023 16:20] 0xlucian
+If you mean unit tests, we are using a mocking library to lovk dependencies of the contracts and also to mock return values.
+For more information please refer to their documentation
+
+https://smock.readthedocs.io/en/latest/
+
+{Reactions}
+thankyou 
+
+[05/11/2023 19:14] 0xjmaria
+Hello, where is the access control set for each function?
+
+
+[05/11/2023 19:29] kkirka_
+Access controls are configured by governance, which can, with a community vote, assign permissions to other actors. The repository with the governance and access control contracts is here: https://github.com/venusprotocol/governance-contracts/. This repo is out of the scope for the audit, so you can assume that access control only grants permissons to trusted entities (usually community-managed timelock contracts with different delays).
+
+{Embed}
+https://github.com/venusprotocol/governance-contracts/
+GitHub - VenusProtocol/governance-contracts
+Contribute to VenusProtocol/governance-contracts development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/governance-contracts-8B7E2
+
+
+[05/11/2023 19:44] troublor
+@narayanprusty DMed you. Pls check when you got time. Thx
+
+
+[05/11/2023 20:16] co0nan
+is there a way to unlist market? I see addMarket but there is no way to delete a market or set the `isListed` to false
+
+
+[05/11/2023 20:57] berlin.101
+I think it can be "deprecated". Check: "isDeprecated" in Comptroller.sol.
+
+
+[05/11/2023 21:00] co0nan
+I din't think this is what i'm looking for. Most preHook functions has a check `if(!markets[vToken].isListed)` but as I can see, there is no way to set `markets[vToken].isListed = false.`
+
+
+[05/11/2023 21:02] berlin.101
+True that. Only the ComptrollerScenerio.sol used for tests has "unlist" function.
+
+
+[05/11/2023 21:06] 0xjmaria
+DMed you ser. question about this
+
+
+[05/11/2023 21:47] troublor
+I think `markets[vToken].isListed` defaults to false so if some caller gives a `vToken` that is never been added to the pool. The check will fail. No way to set `markets[vToken].isListed = false` makes sense to me.
+
+
+[05/11/2023 22:28] 0xjmaria
+Exactly
+
+
+[05/12/2023 05:38] 0xnirlin
+why there are multiple snapshot functions?
+
+
+[05/12/2023 06:25] __melonwater
+dm u @Manmeet22
+
+
+[05/12/2023 07:29] lourenslinde
+Hi @chechu, are you available for a quick question? 🙂  Tried to DM you
+
+{Reactions}
+👍 
+
+[05/12/2023 09:34] 0xepley
+what is `weightedCollateral`
+
+
+[05/12/2023 09:35] 0xepley
+its linked to weight of `asset`, but what is that?
+
+
+[05/12/2023 09:42] daureos
+each "snapshot function" do different calculations, using different parameters. Let us know if you have a specific doubt about them, please
+
+
+[05/12/2023 09:55] neon2835
+Does Venus Protocol Isolated Pools no longer have the concept of stable currency (VAI)？
+
+
+[05/12/2023 09:57] daureos
+it's the value in USD of the collateral deposited by the user, adjusted with the collateral factor, or with the liquidation threshold, depending on the flow. Example:
+
+let's say you have 100 BNB deposited, and enabled to be used as collateral. Let's assume that the collateral factor in the BNB market is 70%, and the liquidation threshold is 80%. And let's assume 1 BNB = $300
+
+when you want to borrow (let's say BTC), covering the borrow with your deposited BNB, the protocol calculates the value of your collateral in USD -> 100 * 300 * 0.7 = $21,000 <- this is the `weightedCollateral`. This will be used as the maximum amount of BTC (in $) you will be allowed to borrow
+
+during a liquidation evaluation, there is a similar calculation, but in this case using the liquidation threshold -> 100 * 300 * 0.8 = $24,000 <- this is the `weightedCollateral`. If your total debt is bigger than this amount, then you will be eligible to be liquidated
+
+~~[updated: liquidation threshold must be always > collateral factor]~~
+**[updated 2: liquidation threshold must be always >= collateral factor]**
+
+{Reactions}
+👍 (14) 
+
+[05/12/2023 09:58] daureos
+VAI is a currency already deployed and working. And its development will continue in the original repo: https://github.com/VenusProtocol/venus-protocol (that is out of the scope of this contest)
+
+{Embed}
+https://github.com/VenusProtocol/venus-protocol
+GitHub - VenusProtocol/venus-protocol: BNB Smart Chain Venus Protocol
+BNB Smart Chain Venus Protocol. Contribute to VenusProtocol/venus-protocol development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/venus-protocol-EDBD0
+
+
+[05/12/2023 09:59] neon2835
+got it
+
+
+[05/12/2023 13:09] __melonwater
+hello dm u @narayanprusty
+
+{Reactions}
+👍 
+
+[05/12/2023 13:33] __melonwater
+hello dm u @chechu
+
+
+[05/12/2023 14:00] 0xpathfindr
+@narayanprusty Kindly check dm thanks.
+
+{Reactions}
+👍 
+
+[05/12/2023 16:05] bauchibred
+Hello @chechu, I sent a DM, kindly check
+
+{Reactions}
+👍 
+
+[05/12/2023 16:36] infectedfuture
+Not sure about this : markets in an isolated pool share a common Risk Fund and Share Reserve ?
+
+
+[05/12/2023 16:48] daureos
+~~initially~~, there will be one RiskFund contract instance and one ProtocolShareReserve instance, used by the different pools/comptrollers
+
+{Reactions}
+👍 
+
+[05/12/2023 17:17] infectedfuture
+Then after this initial period, this will be as i've described it? 
+Or should we apply to one RiskFund/ProtocolSR shared by all pools?
+
+
+[05/12/2023 17:46] daureos
+I updated my message. The idea is to have one RiskFund and one ProtocolShareReserve
+
+
+[05/12/2023 17:52] infectedfuture
+thanks!
+
+
+[05/13/2023 01:08] 0xstalin
+hello, is there a relation between the decimals used to create the vTokens and their underlying asset?
+Or the decimals of the vTokens are always 18 despite the decimals of the associated underlying token?
+
+
+[05/13/2023 04:02] 0xnirlin
+What is borrowIndex
+
+
+[05/13/2023 07:14] infectedfuture
+This is from Compound. This is an ever increasing value reflecting the accumulation of interest rate of the borrows over time
+
+{Reactions}
+❤️ 
+
+[05/13/2023 08:18] 0xlucian
+vTokens are always 8 decimals. You can check in PoolRegistri we account for the delta
+
+{Reactions}
+🫡 
+
+[05/13/2023 09:09] 0xepley
+what's the difference between seize and liquidateBorrowFresh functions
+
+
+[05/13/2023 10:33] 0x73696d616f
+are you guys able to jump to functions on ctrl click on vscode?
+
+
+[05/13/2023 11:25] 0xepley
+yes
+
+
+[05/13/2023 11:29] 0x73696d616f
+what extension do you use? I am using solidity by Juan Blanco
+
+
+[05/13/2023 11:46] stoictopg
+Hi, use the extensions 'solidity and hardhat support by hardhat team' + 'solidity visual developer', disable the old ones
+If you want to use solidity by juanblanco, maybe it's better to use Mythx extension as well
+And I think it's better not to ask these questions here, because here is for the competition programs ... 🙂
+
+
+[05/13/2023 11:49] noro9954
+Hii, for those who use foundry, how you resolved MockPancakeSwap version issue ?
+
+
+[05/13/2023 12:00] 0x73696d616f
+thank you @Someone !
+
+{Reactions}
+👍 
+
+[05/14/2023 03:49] Cryptor#9119
+@chechu, @0xLucian, @Manmeet22, @kkirka, @narayanprusty Anyone available for DM?
+
+{Reactions}
+👍🏻 
+
+[05/14/2023 08:32] kutugu
+Not familiar with hardhat, I was running tests with typescript errors. How do I fix this?
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/image-BE06C.png
+
+
+[05/14/2023 09:19] daureos
+try this:
+```rm -rf artifacts cache node_modules dist // clean-up
+yarn install // install dependencies
+yarn test // execute tests
+```
+
+{Reactions}
+👍 
+
+[05/14/2023 09:20] 0xepley
+what's the difference between LARGE_RISK_FUND and LARGE_POOL_DEBT in shortfall contract
+
+
+[05/14/2023 09:22] daureos
+https://github.com/code-423n4/2023-05-venus#shortfall
+
+"If the pool’s bad debt exceeds the risk fund plus a 10% incentive" --> `LARGE_POOL_DEBT`
+
+"if the risk fund covers the pool's bad debt plus the 10% incentive" --> `LARGE_RISK_FUND`
+
+{Embed}
+https://github.com/code-423n4/2023-05-venus
+GitHub - code-423n4/2023-05-venus
+Contribute to code-423n4/2023-05-venus development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/1d6cdf4a-3c27-4dfb-a1fb-fc09a2bf544d-115C4
+
+
+[05/14/2023 12:34] 0xrizwan
+@chechu Please check DM.
+
+{Reactions}
+🫡 
+
+[05/14/2023 15:50] Cryptor#9119
+@chechu sent you a FR
+
+{Reactions}
+👍 
+
+[05/14/2023 16:15] PrasadLak#0622
+@chechu Pls check DM
+
+{Reactions}
+👍 
+
+[05/14/2023 16:48] tamayonft
+The protocol accept erc777?
+
+
+[05/15/2023 07:59] PrasadLak#0622
+@Manmeet22 Pls Check DM
+
+
+[05/15/2023 10:49] 0xepley
+can the market be cancelled?
+
+
+[05/15/2023 10:50] 0xepley
+@Manmeet22 @chechu
+
+
+[05/15/2023 10:51] noro9954
+@narayanprusty check dm please
+
+
+[05/15/2023 12:00] noro9954
+@kkirka can you check your DMs please
+
+{Reactions}
+✔️ 
+
+[05/15/2023 16:16] 0xpathfindr
+Hey @kkirka & @narayanprusty Kindly check dm
+
+{Reactions}
+✔️ 
+
+[05/15/2023 17:31] dwward3n
+publicly known issues which are ineligible, what are they?
+
+
+[05/15/2023 17:32] dwward3n
+@chechu @narayanprusty can you gimme examples of publicly know nissues?
+
+
+[05/15/2023 17:36] dwward3n
+i wanna report known compound issues present in your code
+
+
+[05/15/2023 18:00] kartoonjoy
+Publicly known issues are posted here https://discord.com/channels/810916927919620096/1103756599014727690/1105504481128493149 and in the audit repo.
+
+
+[05/15/2023 18:02] dwward3n
+Thank you
+
+{Reactions}
+hi5 
+
+[05/15/2023 18:56] infectedfuture
+@chechu hey, mind if I dm?
+
+{Reactions}
+👍 
+
+[05/15/2023 19:53] 0xnirlin
+i think they mitigated that already
+
+
+[05/15/2023 20:00] 0xstalin
+the last hour of the contest was a real roller coaster for me
+Woke up early today and was able to spot 1 high and a couple meds, but I still needed to submit all of those new findings, I almost missed the train 😆
+
+
+[05/15/2023 20:01] 0xstalin
+Thanks a lot to @chechu & @0xLucian for answering all my DMs, you guys were very supportive :hi5:
+
+{Reactions}
+🫡 (3) 
+
+[05/15/2023 20:01] dwward3n
+cool
+
+
+[05/15/2023 20:01] dwward3n
+when can i see your findings? also, ETA for report?
+
+
+[05/15/2023 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Venus Protocol** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a Contest Admin if you have questions along the way!
+
+{Reactions}
+💯 (12) hi5 (4) 👀 (3) 10_10 (4) Check_Check (4) 
+
+[05/15/2023 20:03] 0xstalin
+I believe it takes like 2 months until the final report is released to the public, but if you have the backstage role I understand that you can see the whole judging process
+
+
+[05/15/2023 20:04] 0xpathfindr
+Had a good time auditing this one. Super responsive team. Being able to contact devs in different timezones was huge plus. Wishing the team at Venus all the best. 💯
+
+{Reactions}
+❤️ (3) 
+
+[05/15/2023 20:06] dwward3n
+got you, I dislike that point btw. once contest ended, why shouldn't i see others' findings?
+
+
+[05/15/2023 20:07] PrasadLak#0622
+Nice protocol and thanks a lot of answering all dms . @chechu @kkirka. I was unable to complete my last finding .  Anyway thanks a lot team members.
+
+{Reactions}
+❤️ 
+
+[05/15/2023 20:20] 0xkazimm
+Special thanks to the team for helping us 🔥🫡
+
+{Reactions}
+❤️ 
+
+[05/15/2023 20:57] 0xjmaria
+Special thanks to @chechu for answering the doubts💪🏼
+
+{Reactions}
+❤️ (5) 
+
+[05/15/2023 21:40] co0nan
+@chechu he was super fast and his patience is 🚀
+
+{Reactions}
+❤️ 
+
+[05/15/2023 22:22] daureos
+thank everyone for your time, findings, and questions. We have enjoyed walking with you this week reviewing the code of the project. We love Venus Isolated pools and it was a pleasure to share with you this passion. Thank Code4rena org, fantastic experience!
+
+{Reactions}
+💜 (12) 
+
+[05/15/2023 22:55] coffiasd
+great content
+
+
+[05/16/2023 02:11] qpzm
+The deadline is over, but why should I  divide by `marketBorrowIndex`  to calculate `borrowAmount`? 
+I am confused 😅
+```solidity
+uint256 borrowAmount = div_(VToken(vToken).totalBorrows(), marketBorrowIndex);
+```
+https://github.com/code-423n4/2023-05-venus/blob/main/contracts/Rewards/RewardsDistributor.sol#L464
+
+
+[05/16/2023 04:02] PrasadLak#0622
+I may completely wrong with this one. Anyway I need to send this. I didn't submit this since I dont have enough time to check all these.
+
+
+[05/16/2023 04:03] PrasadLak#0622
+Take a flash loan > increase the underlying token price >So starting bid decreased. Now Start auction >  Put a bid with startingBid as 0 > wait 30 sec to finish > close the auction > get the tokens for free
+
+
+[05/16/2023 05:07] __melonwater
+they said oracle price is always correct, so I guess the price will not be easily manipulated?
+
+
+[05/16/2023 09:08] daureos
+> increase the underlying token price
+
+I think that using Chainlink or Binance oracles, the protocol should be protected against price manipulation with flash loans. But we are totally open to listening to more about this potential attack vector 🙂
+
+{Reactions}
+👍 
+
+[05/16/2023 10:41] narayanprusty
+we are dividing the totalBorrows with borrowIndex so that we only give rewards for total borrows and not the interest accrued on borrows.
+
+
+[05/16/2023 10:42] qpzm
+I understand. Thank you for your response!
+
+
+[05/27/2023 05:48] wahedtalash77#8433
+Hi. does anyone know the Venus review is completed by sponsor team or not.
+
+
+[05/30/2023 14:20] oualidpro#8727
+please can anyone here tell me why the following structure has 17 slots:
+33        struct AddMarketInput {
+34            address comptroller;
+35            address asset;
+36            uint8 decimals;
+37            string name;
+38            string symbol;
+39            InterestRateModels rateModel; (enum)
+40            uint256 baseRatePerYear;
+41            uint256 multiplierPerYear;
+42            uint256 jumpMultiplierPerYear;
+43            uint256 kink_;
+44            uint256 collateralFactor;
+45            uint256 liquidationThreshold;
+46            uint256 reserveFactor;
+47            AccessControlManager accessControlManager; (contract)
+48            address beaconAddress;
+49            uint256 initialSupply;
+50            address vTokenReceiver;
+51            uint256 supplyCap;
+52            uint256 borrowCap;
+53:       }
+
+
+[05/30/2023 14:21] oualidpro#8727
+it is mentionned in the following automated report : https://gist.github.com/CloudEllie/6639dbfd7dc1809a3baa28bb2895e1d9
+
+{Embed}
+https://gist.github.com/CloudEllie/6639dbfd7dc1809a3baa28bb2895e1d9
+Venus-bot-race-findings-IllIllI.md
+GitHub Gist: instantly share code, notes, and snippets.
+Code4rena - ARCHIVE-Q2-2023 - venus-may08 [1103756599014727690].txt_Files/gist-og-image-17482.png
+
+
+[05/30/2023 14:47] thekmj
+It is 18 slots. `asset` and `decimals` take up one slot, the rest takes one slot each.
+
+There is `user-defined(null):accessControlManager` in the bot report's ordering, probably the bot didn't know what it is and took it as zero bytes.
+
+{Reactions}
+👍 
+
+[05/30/2023 14:48] oualidpro#8727
+thank you so much 🙂
+
+
+[06/14/2023 03:30] liveactionllamac4
+:code4rena: 💸 🎉 Awards for **Venus Protocol Isolated Pools**:
+
+$7106.37 USDC » @bin2chen 
+$6690.02 USDC » @rvierdiiev 
+$6224.32 USDC » @volodya 
+$5287.96 USDC » DeliChainSec ( @deliriusz & @0xffchain )
+$3352.9 USDC » @xuwinnie 
+$3148.2 USDC » @0xSurena 
+$2930.4 USDC » @0xStalin 
+$1859.08 USDC » 0x8chars
+$1807.4 USDC » @Olanrewaju 
+$1520.33 USDC » @J4de 
+$1409.77 USDC » @0xcm 
+$1239.75 USDC » @peanuts
+$1202.71 USDC » @thekmj 
+$1200.33 USDC » @0xnev 
+$1008.23 USDC » @dacian 
+$873.1 USDC » @berlin.101 
+$840.31 USDC » @Co0nan 
+$833.57 USDC » @Udsen 
+$821.24 USDC » @JCN 
+$815.46 USDC » @sashik_eth 
+$798.58 USDC » @BoltzmannBrain 
+$788.63 USDC » @nadin 
+$788.63 USDC » @jasonxiale 
+$732 USDC » @mussucal 
+$732 USDC » @chaieth 
+$732 USDC » BugBusters ( @nirlin & @0xepley )
+$723.8 USDC » @brgltd 
+$688.36 USDC » @Sathish9098 
+$688.36 USDC » @code-cipher 
+$688.36 USDC » @naman1778 
+$623.36 USDC » @Bauchibred 
+$572.35 USDC » Team_Rocket ( @EllipticPoint & @AlexCzm )
+$560.11 USDC » @fs0c 
+$556.77 USDC » @Kose 
+$556.77 USDC » YoungWolves ( @lopotras & @Bloqarl )
+$556.77 USDC » @infect3d 
+$556.77 USDC » @frazerch 
+$384.21 USDC » @0xadrii 
+$306.37 USDC » @0x73696d616f 
+$258.69 USDC » @Brenzee 
+$258.69 USDC » BPZ ( @Bitcoinfever244, @PrasadLak, & @zinc42 )
+$248.74 USDC » @Emmanuel 
+$248.74 USDC » @0xbepresent 
+$219.27 USDC » @0xkazim 
+$192.11 USDC » Audit_Avengers_2 ( @0xSmartContractSamurai, @ravikiranweb3, @zzebra83, & @0xMosh )
+$192.11 USDC » @YungChaza 
+$192.11 USDC » @yongskiws 
+$140.99 USDC » @pontifex 
+$123.22 USDC » @Lilyjjo 
+$123.22 USDC » @Franfran 
+$108.32 USDC » @RaymondFam 
+$101.57 USDC » @matrix_0wl 
+$101.57 USDC » @codeslide 
+$101.57 USDC » 0xAce ( @uint256 & @0xaditya )
+$101.57 USDC » @Santiago Moreno 
+$101.57 USDC » @0xSmartContract 
+$67.19 USDC » @LokiThe5th 
+$66.59 USDC » @zzykxx 
+$66.59 USDC » @Yardi256 
+$66.59 USDC » @carlitox477 
+$66.59 USDC » @ast3ros 
+$66.59 USDC » @sces60107 | GimelSec 
+$66.59 USDC » @peritoflores 
+$66.59 USDC » @MohammedRizwan 
+$56.63 USDC » @kodyvim 
+$56.63 USDC » @YakuzaKiawe 
+$56.63 USDC » BGSecurity ( @anonresearcher & @martin | Founder @ ShieldifySec )
+$56.63 USDC » @wonjun 
+$56.63 USDC » @0xWaitress 
+$56.63 USDC » @iceBear 
+$56.63 USDC » @koxuan 
+$56.63 USDC » @tnevler 
+$56.63 USDC » @PNS 
+$56.63 USDC » @lukris02 
+$56.63 USDC » @ICP 
+$56.63 USDC » @Cayo 
+$56.63 USDC » @btk 
+$56.63 USDC » @yjrwkk 
+$56.63 USDC » @ChrisTina 
+$56.63 USDC » @joestakey 
+$56.63 USDC » @lfzkoala 
+$51.68 USDC » @Norah 
+$51.68 USDC » @QiuhaoLi 
+$51.68 USDC » @Cryptor 
+$51.68 USDC » @qpzm 
+$51.68 USDC » @Josiah 
+$51.68 USDC » @Parad0x 
+$44.94 USDC » @souilos 
+$44.94 USDC » @K42 Ψ 
+$44.94 USDC » @rapha 
+$44.94 USDC » @none 
+$44.94 USDC » @Rageur 
+$44.94 USDC » @SAAJ
+
+{Reactions}
+👏 (10) 👽 🎉 (2) ✅ (2) 
+
+[06/14/2023 03:31] liveactionllamac4
+$44.94 USDC » @j4ld1na 
+$44.94 USDC » @ReyAdmirado 
+$44.94 USDC » @descharre 
+$44.94 USDC » @lllu_23 
+$44.94 USDC » @hunter_w3b 
+$44.94 USDC » @c3phas 
+$44.94 USDC » @Raihan 
+$44.94 USDC » @SM3_SS 
+$44.94 USDC » @petrichor🦖  
+
+🏁 Findings summary
+---------------------------
+High risk findings: 22 total, 1 unique
+Med risk findings: 75 total, 16 unique
+Gas reports: 27
+QA reports: 50
+
+Awards will be distributed on Polygon within the next week. Congratulations, everyone! 💸 💸 💸
+
+Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.
+
+{Reactions}
+👍 (14) 🎉 (12) ❤️ (4) 👏 (4) 
+
+[06/14/2023 04:46] saq_143
+😞
+
+
+[06/14/2023 04:54] 0xstalin
+Top 7 🤯
+
+{Reactions}
+🔥 (20) 
+
+[06/14/2023 05:01] thekmj
+Ooft thanks for reward 😄
+
+
+[06/14/2023 05:07] qiuhaoli
+@bin2chen Congratulations! 🎉  🎉 太强了👍
+
+
+[06/14/2023 05:30] zzebra83
+Congrats audit avengers team 😁
+
+{Reactions}
+🔥 (6) 
+
+[06/14/2023 05:53] Udsen#2087
+Congratulations All !!!🎉 🎉
+
+{Reactions}
+🎉 (2) 
+
+[06/14/2023 06:32] lourenslinde
+Congrats everyone! My first award 🎉
+
+{Reactions}
+hi5 (6) 
+
+[06/14/2023 06:34] t1moh
+Volodya monster
+
+{Reactions}
+🫡 (5) 
+
+[06/14/2023 06:42] infectedfuture
+yahooooo! first 3 digits award!  from 13$ to 558$ :bolt_discord_emoji:
+
+{Reactions}
+🔥 (5) hi5 (4) 
+
+[06/14/2023 06:50] yakuzakiawe
+My first contest and got rewarded.
+
+{Reactions}
+🔥 (6) hi5 (5) 
+
+[06/14/2023 09:56] kosedogus
+3 digits from my first contest :chefskiss:
+
+
+[06/14/2023 10:02] 0xsmartcontractsamurai
+Congrats to my Audit Avengers team. Good work. 🫡
+
+
+[06/14/2023 11:46] naman1778#5622
+Mine also
+
+{Reactions}
+🔥 (2) hi5 
+
+[06/14/2023 11:47] 0xkazimm
+venus result still not updated on code4 right ?
+
+
+[06/14/2023 13:12] 0xvolodya
+Congratulations to everybody! Thank you for the opportunity ❤️
+
+{Reactions}
+💜 (6) 
+
+[06/14/2023 14:08] olanre_waju
+I made top 10, how do I get my reward, this is my first time
+
+
+[06/14/2023 14:09] olanre_waju
+Ok, within the next week, I'm so happy!!!
+
+{Reactions}
+☀️ (3) 
+
+[06/14/2023 14:50] berlin.101
+Thanks. My first (almost) 4 digit result 🙌 Congrats to everyone.
+
+{Reactions}
+bolt_discord_emoji (4) 
+
+[06/14/2023 23:24] devdacian
+In the listing at https://code4rena.com/contests/2023-05-venus-protocol-isolated-pools, it looks like 4th place "DeliChainSec (@deliriusz & @0xffchain)" is missing even though it was present in the rewards pasted in this channel. Curious why that is?
+
+
+[06/15/2023 03:06] liveactionllamac4
+It is a technical issue that our dev team is looking into!
+
+{Reactions}
+👍 
+
+[06/15/2023 15:13] lopotras
+same situation with "YoungWolves ( @lopotras & @Bloqarl )"
+I can't see the team on the website either in the selection of teams from which I can submit my findings
+
+
+[06/15/2023 16:12] 0xffchain
+Yeap.
+
+
+[06/15/2023 16:15] liveactionllamac4
+Thanks for flagging! I don't believe our devs were aware of that second part - so will let them know!
+
+
+[06/15/2023 16:59] liveactionllamac4
+Started a thread.
+
+
+[06/15/2023 17:16] liveactionllamac4
+Update: the two missing teams should now be showing on the leaderboard for Venus.
+
+
+[06/15/2023 17:31] CoOLLaItAr#5816
+can I get mail address of Venus ?
+
+
+[06/19/2023 14:56] 0xepley
+you can dm on twitter
+
+{Reactions}
+🙌 
+
+[06/20/2023 20:04] 0xean
+any updates on timeline for awarding?
+
+
+[06/20/2023 21:07] 0xstalin
+Rewards have already been sent 👌
+
+
+[06/20/2023 21:12] 0xean
+ahh, thanks! totally missed it.
+
+{Reactions}
+🫡 
+
+[07/16/2023 16:19] thank_you_
+Are there any plans to release the findings for this report?
+
+
+[07/17/2023 12:24] thebrittfactor
+We are working through a few final updates before the report is ready. If we get the okay from the sponsor, we'll get it published whenever it's complete 😊
+
+
+[07/17/2023 13:03] thank_you_
+Thank you for the response!
+
+
+[08/08/2023 11:08] noro9954
+when we expect the report to be realesed ? @thebrittfactor | C4
+
+
+[08/08/2023 14:00] thebrittfactor
+We are waiting for sponsor approval. We'll get it posted as soon as we get the green light 🙂
+
+
+[08/30/2023 17:04] 0xnirlin
+hey dmed you, i have something important to share
+
+
+[09/22/2023 21:08] c145h
+😀
+
+
+[09/22/2023 21:10] c145h
+When is it gonna live?
+
+
+==============================================================
+Exported 187 message(s)
+==============================================================
